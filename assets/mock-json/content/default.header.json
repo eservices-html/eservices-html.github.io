@@ -6,7 +6,7 @@
       "linkType": "DEFAULT",
       "targetWindow": "SELF",
       "label": "Logo Label",
-      "icon": "//cdn.tmobile.com/content/dam/navigation/tmo-logo.svg",
+      "icon": "//cdn.tmobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v3.svg",
       "hoverIcon": "LogoHover",
       "linkUrl": [
         {
@@ -999,10 +999,34 @@
         ]
       },
       {
+        "showInMobileView": true,
+        "id": "account-menu",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to open login menu",
+        "icon": "mdi-account",
+        "linkUrl": [
+          {
+            "linkText": "Log in",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
         "showInMobileView": false,
         "id": "login-menu",
         "disabled":false,
-        "buttonType": "secondary-magenta",
+        "buttonType": "secondary-solid",
         "linkType": "DEFAULT",
         "targetWindow": "SELF",
         "label": "Click login button",
@@ -1026,7 +1050,7 @@
       },
       {
         "showInMobileView": false,
-        "buttonType":"primary-magenta",
+        "buttonType":"primary-solid",
         "id": "get-started",
         "disabled":false,
         "linkType": "DEFAULT",
