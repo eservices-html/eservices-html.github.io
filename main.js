@@ -1037,10 +1037,7 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         var parentSrcId = parentEle ? parentEle['id'] : '';
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
         if (!this.mobileView && isnavLink && items > 0) {
-            if (!this.menuOpened) {
-                e.preventDefault();
-                this.closeMenu.emit();
-            }
+            this.toggleMobileDropdown();
         }
     };
     var NtmUnavDropdownComponent_1;
