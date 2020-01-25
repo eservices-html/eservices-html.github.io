@@ -1055,9 +1055,11 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 setTimeout(function () {
                     _this.menuOpened = true;
                     _this.changeRef.detectChanges();
-                    _this.closeMenu.emit();
                     return;
                 }, 50);
+            }
+            else {
+                this.closeMenu.emit();
             }
             /*if(this.menuOpened) {
               setTimeout(() => {
