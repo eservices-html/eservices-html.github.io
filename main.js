@@ -1051,8 +1051,8 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }*/
         if (e.type === 'touchend' && !this.mobileView) {
             if (!this.menuOpened) {
+                e.preventDefault();
                 setTimeout(function () {
-                    e.preventDefault();
                     _this.menuOpened = true;
                     _this.changeRef.detectChanges();
                     return;
@@ -1512,7 +1512,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
+/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
