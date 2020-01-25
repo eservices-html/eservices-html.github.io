@@ -1061,9 +1061,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         if (e.type === 'touchend' && !this.mobileView && this.menuOpened && isnavLink && items > 0) {
             alert("1");
             this.closeMenu.emit();
-            this.menuOpened = false;
-            this.changeRef.detectChanges();
-            return;
         }
     };
     var NtmUnavDropdownComponent_1;
