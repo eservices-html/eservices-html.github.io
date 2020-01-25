@@ -1032,7 +1032,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
-        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
@@ -1040,13 +1039,14 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         if (!this.mobileView && isnavLink && items > 0) {
             if (!this.menuOpened) {
                 e.preventDefault();
-                //this.closeMenu.emit();
+                this.menuOpened = true;
+                this.closeMenu.emit();
             }
-            setTimeout(function () {
-                var IS_OPENED = !_this.menuOpened;
-                _this.menuOpened = IS_OPENED;
-                _this.changeRef.detectChanges();
-            }, 0);
+            /*setTimeout(() => {
+            const IS_OPENED = !this.menuOpened;
+                this.menuOpened = IS_OPENED;
+                this.changeRef.detectChanges();
+              },0);*/
         }
     };
     var NtmUnavDropdownComponent_1;
