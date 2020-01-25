@@ -1032,7 +1032,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
-        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
@@ -1042,11 +1041,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 e.preventDefault();
                 this.closeMenu.emit();
             }
-            setTimeout(function () {
-                var IS_OPENED = !_this.menuOpened;
-                _this.menuOpened = IS_OPENED;
-                _this.changeRef.detectChanges();
-            }, 0);
         }
     };
     var NtmUnavDropdownComponent_1;
