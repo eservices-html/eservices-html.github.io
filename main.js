@@ -1050,6 +1050,7 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             },0);
         }*/
         if (e.type === 'touchend' && !this.mobileView && !this.menuOpened && isnavLink && items > 0) {
+            alert("1");
             e.preventDefault();
             this.closeMenu.emit();
             setTimeout(function () {
@@ -1059,8 +1060,12 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             }, 10);
         }
         if (e.type === 'touchend' && !this.mobileView && this.menuOpened && isnavLink && items > 0) {
-            alert("1");
-            this.closeMenu.emit();
+            alert("2");
+            if (!this.elementRef.nativeElement.contains(e.target)) {
+                this.menuOpened = false;
+                this.changeRef.detectChanges();
+            }
+            return;
         }
     };
     var NtmUnavDropdownComponent_1;
