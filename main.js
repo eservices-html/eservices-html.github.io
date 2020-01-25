@@ -1013,34 +1013,35 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     NtmUnavDropdownComponent.prototype.toggleMobileDropdown = function () {
     };
     NtmUnavDropdownComponent.prototype.toggleDropdown = function (e) {
-        if (e.type === 'mouseenter' && !this.mobileView) {
+        if ((e.type === 'mouseenter' || e.type === 'touchstart') && !this.mobileView) {
             this.menuOpened = true;
             this.changeRef.detectChanges();
             return;
         }
-        if (e.type === 'mouseleave' && !this.mobileView) {
+        if ((e.type === 'mouseleave' || e.type === 'touchend') && !this.mobileView) {
             this.menuOpened = false;
             this.changeRef.detectChanges();
             return;
         }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
-        var srcId = e.target ? e.target.id : '';
-        var parentEle = e.target ? e.target['parentElement'] : '';
-        var parentSrcId = parentEle ? parentEle['id'] : '';
-        var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
+        /*const srcId: string = e.target ? (e.target as Element).id : '';
+        const parentEle = e.target  ? (e.target as Element)['parentElement'] : '';
+        const parentSrcId: string = parentEle  ? parentEle['id'] : '';
+        const isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head')
         if (!this.mobileView && isnavLink && items > 0) {
-            if (!this.menuOpened) {
-                e.preventDefault();
-                this.menuOpened = true;
-                this.closeMenu.emit();
-            }
-            /*setTimeout(() => {
-            const IS_OPENED = !this.menuOpened;
-                this.menuOpened = IS_OPENED;
-                this.changeRef.detectChanges();
-              },0);*/
-        }
+         
+          if(!this.menuOpened){
+            e.preventDefault();
+            this.menuOpened=true;
+            this.closeMenu.emit();
+          }
+          setTimeout(() => {
+          const IS_OPENED = !this.menuOpened;
+              this.menuOpened = IS_OPENED;
+              this.changeRef.detectChanges();
+            },0);
+        }*/
     };
     var NtmUnavDropdownComponent_1;
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -1486,7 +1487,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
+/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
