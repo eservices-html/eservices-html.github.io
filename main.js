@@ -1049,10 +1049,8 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             },0);
         }*/
         if (e.type === 'touchend' && !this.mobileView) {
-            this.changeRef.detectChanges();
             if (!this.menuOpened) {
                 e.preventDefault();
-                return;
             }
             /*if(this.menuOpened) {
               setTimeout(() => {
