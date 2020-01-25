@@ -1015,23 +1015,11 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         this.menuOpened = this.menuItemData && !this.menuItemData.close;
     };
     NtmUnavDropdownComponent.prototype.toggleMobileDropdown = function () {
-        var toggleState = !this.menuOpened;
-        this.menuOpened = toggleState;
-        this.changeRef.detectChanges();
     };
     NtmUnavDropdownComponent.prototype.toggleDropdown = function (e) {
-        if (e.type === 'mouseenter' && !this.mobileView) {
-            this.menuOpened = true;
-            this.changeRef.detectChanges();
-            return;
-        }
-        if (e.type === 'mouseleave' && !this.mobileView) {
-            this.menuOpened = false;
-            this.changeRef.detectChanges();
-            return;
-        }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
+        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
@@ -1039,10 +1027,13 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         if (!this.mobileView && isnavLink && items > 0) {
             if (!this.menuOpened) {
                 e.preventDefault();
-                this.menuOpened = false;
                 this.closeMenu.emit();
-                this.changeRef.detectChanges();
             }
+            setTimeout(function () {
+                var IS_OPENED = !_this.menuOpened;
+                _this.menuOpened = IS_OPENED;
+                _this.changeRef.detectChanges();
+            }, 0);
         }
     };
     var NtmUnavDropdownComponent_1;
@@ -1489,7 +1480,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
+/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
