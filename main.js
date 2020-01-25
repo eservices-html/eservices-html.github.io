@@ -1032,6 +1032,7 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
+        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
@@ -1049,18 +1050,20 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             },0);
         }*/
         if (e.type === 'touchend' && !this.mobileView) {
-            if (!this.menuOpened) {
-                e.preventDefault();
-                this.menuOpened = true;
-                this.changeRef.detectChanges();
-                return;
-            }
-            else {
-                this.menuOpened = false;
-                this.changeRef.detectChanges();
-                this.closeMenu.emit();
-                return;
-            }
+            setTimeout(function () {
+                if (!_this.menuOpened) {
+                    e.preventDefault();
+                    _this.menuOpened = true;
+                    _this.changeRef.detectChanges();
+                    return;
+                }
+                else {
+                    _this.menuOpened = false;
+                    _this.changeRef.detectChanges();
+                    _this.closeMenu.emit();
+                    return;
+                }
+            }, 10);
         }
     };
     var NtmUnavDropdownComponent_1;
@@ -1507,7 +1510,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
