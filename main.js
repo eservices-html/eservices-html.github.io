@@ -1013,6 +1013,16 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     NtmUnavDropdownComponent.prototype.toggleMobileDropdown = function () {
     };
     NtmUnavDropdownComponent.prototype.toggleDropdown = function (e) {
+        if (e.type === 'mouseenter' && !this.mobileView) {
+            this.menuOpened = true;
+            this.changeRef.detectChanges();
+            return;
+        }
+        if (e.type === 'mouseleave' && !this.mobileView) {
+            this.menuOpened = false;
+            this.changeRef.detectChanges();
+            return;
+        }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
         var srcId = e.target ? e.target.id : '';
@@ -1476,7 +1486,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
