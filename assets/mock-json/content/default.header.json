@@ -6,7 +6,7 @@
       "linkType": "DEFAULT",
       "targetWindow": "SELF",
       "label": "Logo Label",
-      "icon": "//cdn.tmobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v3.svg ",
+      "icon": "//cdn.tmobile.com/content/dam/navigation/tmo-logo.svg",
       "hoverIcon": "LogoHover",
       "linkUrl": [
         {

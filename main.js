@@ -1049,25 +1049,23 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
               this.changeRef.detectChanges();
             },0);
         }*/
-        if (e.type === 'touchend' && !this.mobileView) {
-            if (!this.menuOpened) {
-                e.preventDefault();
-                this.closeMenu.emit();
-                setTimeout(function () {
-                    _this.menuOpened = true;
-                    _this.changeRef.detectChanges();
-                    return;
-                }, 10);
-            }
-            /*if(this.menuOpened) {
-              setTimeout(() => {
-              this.menuOpened = false;
-              this.closeMenu.emit();
-              this.changeRef.detectChanges();
-              return;
-             },10);
-            }*/
+        if (e.type === 'touchend' && !this.mobileView && !this.menuOpened) {
+            e.preventDefault();
+            this.closeMenu.emit();
+            setTimeout(function () {
+                _this.menuOpened = true;
+                _this.changeRef.detectChanges();
+                return;
+            }, 10);
         }
+        /*if(this.menuOpened) {
+          setTimeout(() => {
+          this.menuOpened = false;
+          this.closeMenu.emit();
+          this.changeRef.detectChanges();
+          return;
+         },10);
+        }*/
     };
     var NtmUnavDropdownComponent_1;
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -2744,7 +2742,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<tmo-digital-header theme=\"dark\" sticky='true' skinny='false'> </tmo-digital-header>\n\n<div style=\"height: 1000px; background-color: antiquewhite\"></div>\n\n\n\n<tmo-digital-footer>   </tmo-digital-footer>\n"
+module.exports = "<tmo-digital-header site='prospect' theme=\"light\" sticky='true' skinny='false'> </tmo-digital-header>\n\n<div style=\"height: 1000px; background-color: antiquewhite\"></div>\n\n\n\n<tmo-digital-footer site='prospect'>   </tmo-digital-footer>\n"
 
 /***/ }),
 
