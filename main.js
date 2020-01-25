@@ -1049,10 +1049,17 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             },0);
         }*/
         if (e.type === 'touchend' && !this.mobileView) {
-            e.preventDefault();
-            this.menuOpened = true;
-            this.changeRef.detectChanges();
-            return;
+            if (!this.menuOpened) {
+                e.preventDefault();
+                this.menuOpened = true;
+                this.changeRef.detectChanges();
+                return;
+            }
+            else {
+                this.menuOpened = false;
+                this.changeRef.detectChanges();
+                return;
+            }
         }
     };
     var NtmUnavDropdownComponent_1;
