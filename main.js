@@ -1059,15 +1059,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 return;
             }, 10);
         }
-        if (e.type === 'touchstart' && !this.mobileView && this.menuOpened && isnavLink && items > 0) {
-            alert("2");
-            if (!this.elementRef.nativeElement.contains(e.target)) {
-                this.menuOpened = false;
-                this.changeRef.detectChanges();
-            }
-            setTimeout(function () {
-            }, 5000);
-        }
     };
     var NtmUnavDropdownComponent_1;
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
