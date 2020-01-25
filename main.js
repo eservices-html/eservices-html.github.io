@@ -2838,8 +2838,8 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    unavBaseUrl: '../TMNG/assets/mock-json',
-    cartApiUrl: '../TMNG/assets/mock-json/mockCart.json',
+    unavBaseUrl: '/assets/mock-json',
+    cartApiUrl: '/assets/mock-json/mockCart.json',
     cartCookie: 'tmobglobalshareddata',
     sessionHost: 'https://my.t-mobile.com'
 };
