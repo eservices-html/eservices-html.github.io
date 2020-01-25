@@ -1,0 +1,998 @@
+{
+    "title": "MENU",
+    "sitesTitle": "more from T-Mobile",
+    "logo": {
+        "id": "Logo Id Test",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Logo Label",
+        "icon": "//cdn.tmobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v3.svg",
+        "hoverIcon": "LogoHover",
+        "linkUrl": [
+            {
+                "linkText": "T-MOBILE",
+                "linkHref": "https://www.t-mobile.com",
+                "customerType": [
+                    "PROSPECT",
+                    "TMO-PREVOUSLY-AUTHENTICATED",
+                    "TMO-CURRENTLY-AUTHENTICATED"
+                ]
+            }
+        ]
+    },
+    "sites": [
+        {
+            "activeState": true,
+            "id": "Wireless Id",
+            "linkType": "DEFAULT",
+            "targetWindow": "NEW",
+            "label": "Click to visit the consumer site",
+            "linkUrl": [
+                {
+                    "linkText": "Wireless",
+                    "linkHref": "https://www.t-mobile.com/",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "activeState": false,
+            "id": "Business Id",
+            "linkType": "DEFAULT",
+            "targetWindow": "NEW",
+            "label": "Click to visit the business site",
+            "linkUrl": [
+                {
+                    "linkText": "Business",
+                    "linkHref": "https://www.t-mobile.com/business",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "activeState": false,
+            "id": "prepaid id",
+            "linkType": "DEFAULT",
+            "targetWindow": "NEW",
+            "label": "prepaid id",
+            "icon": "prepaid icon",
+            "hoverIcon": "prepaid hover",
+            "linkUrl": [
+                {
+                    "linkText": "Prepaid",
+                    "linkHref": "https://prepaid.t-mobile.com",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "activeState": false,
+            "id": "TV Id",
+            "linkType": "DEFAULT",
+            "targetWindow": "NEW",
+            "label": "Click to visit the prepaid site",
+            "linkUrl": [
+                {
+                    "linkText": "TV",
+                    "linkHref": "https://www.t-mobile.com/tvision",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "activeState": false,
+            "id": "Banking Id",
+            "linkType": "DEFAULT",
+            "targetWindow": "NEW",
+            "label": "Click to visit T-Mobile Money",
+            "linkUrl": [
+                {
+                    "linkText": "Banking",
+                    "linkHref": "https://www.t-mobilemoney.com/en/home.html",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        }
+    ],
+    "navigationLinks": [
+        {
+            "id": "Our story",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click for our story",
+            "linkUrl": [
+                {
+                    "linkText": "Our story",
+                    "linkHref": "https://www.t-mobile.com/our-story",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ],
+                    "childLinks": [
+                        {
+                            "targetWindow": "SELF",
+                            "categorizedlink": [
+                                {
+                                    "id": "Un-carrier history",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Un-carrier history",
+                                            "linkHref": "https://www.t-mobile.com/our-story/un-carrier-history",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Network & innovation",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Network & innovation",
+                                            "linkHref": "https://www.t-mobile.com/our-story/network-and-innovation ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Awards",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Awards",
+                                            "linkHref": "https://www.t-mobile.com/our-story/awards",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Leadership",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Leadership",
+                                            "linkHref": "https://investor.t-mobile.com/corporate-governance/management-and-board-of-directors/",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Working together ",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Working together ",
+                                            "linkHref": "https://www.t-mobile.com/our-story/working-together ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Responsibility Id",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click to learn about our responsibility",
+            "linkUrl": [
+                {
+                    "linkText": "Responsibility",
+                    "linkHref": "https://www.t-mobile.com/responsibility",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ],
+                    "childLinks": [
+                        {
+                            "targetWindow": "SELF",
+                            "categorizedlink": [
+                                {
+                                    "id": "Community",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to learn more about our community",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Community",
+                                            "linkHref": "https://www.t-mobile.com/responsibility/community ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Sustainability",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to learn about sustainability",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Sustainability",
+                                            "linkHref": "https://www.t-mobile.com/responsibility/sustainability",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Consumer information",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to learn about consumer information",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Consumer information",
+                                            "linkHref": "https://www.t-mobile.com/responsibility/consumer-info ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Privacy center",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to go to the privacy center",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Privacy center",
+                                            "linkHref": "https://www.t-mobile.com/responsibility/privacy ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Legal center",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to go to the legal center",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Legal center",
+                                            "linkHref": "https://www.t-mobile.com/responsibility/legal ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click for newsroom options",
+            "linkUrl": [
+                {
+                    "linkText": "Newsroom",
+                    "linkHref": "https://www.t-mobile.com/news ",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ],
+                    "childLinks": [
+                        {
+                            "targetWindow": "SELF",
+                            "categorizedlink": [
+                                {
+                                    "id": "Archive",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Newsroom archives",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Archive",
+                                            "linkHref": "https://www.t-mobile.com/news/archive",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Media library",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Media library",
+                                            "linkHref": "https://www.t-mobile.com/news/media-library ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Fact sheets",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Fact sheets",
+                                            "linkHref": "https://www.t-mobile.com/news/fact-sheets ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Contact us",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Contact the newsroom",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Contact us",
+                                            "linkHref": "https://www.t-mobile.com/news/contact-us",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Investors",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click for investors information",
+            "linkUrl": [
+                {
+                    "linkText": "Investors",
+                    "linkHref": "https://investor.t-mobile.com/investors/default.aspx",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ],
+                    "childLinks": [
+                        {
+                            "targetWindow": "SELF",
+                            "categorizedlink": [
+                                {
+                                    "id": "Financial performance",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to learn about our financial performance",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Financial performance",
+                                            "linkHref": "//investor.t-mobile.com/financial-performance/quarterly-results/default.aspx ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "News & events",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to see our news and events",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "News & events",
+                                            "linkHref": "//investor.t-mobile.com/news-and-events/t-mobile-us-press-releases/default.aspx ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Stock chart",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to see our stock chart",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Stock chart",
+                                            "linkHref": "//investor.t-mobile.com/stock-chart/default.aspx ",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Corporate governance",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to learn about corporate governance",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Corporate governance",
+                                            "linkHref": "//investor.t-mobile.com/corporate-governance/governance-documents/default.aspx",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Resources",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to go to our resources",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Resources",
+                                            "linkHref": "//investor.t-mobile.com/resources/contact-us/default.aspx",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Careers",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click to learn about our careers",
+            "linkUrl": [
+                {
+                    "linkText": "Careers",
+                    "linkHref": "https://www.t-mobile.com/careers",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ],
+                    "childLinks": [
+                        {
+                            "targetWindow": "SELF",
+                            "categorizedlink": [
+                                {
+                                    "id": "Current openings",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to see our current openings",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Current openings",
+                                            "linkHref": "https://www.tmobile.careers/job-search",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Log in",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to log in",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Log in",
+                                            "linkHref": "https://www.t-mobile.com/careers/login",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Meet our teams",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to meet our teams",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Meet our teams",
+                                            "linkHref": "https://www.t-mobile.com/careers/meet-our-teams",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Culture & benefits",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to see our culture and benefits",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "Culture & benefits",
+                                            "linkHref": "https://www.t-mobile.com/careers/culture-and-benefits",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "For applicants",
+                                    "linkType": "DEFAULT",
+                                    "targetWindow": "SELF",
+                                    "label": "Click to go to our applicant page",
+                                    "linkUrl": [
+                                        {
+                                            "linkText": "For applicants",
+                                            "linkHref": "https://www.t-mobile.com/careers/for-applicants",
+                                            "customerType": [
+                                                "PROSPECT",
+                                                "TMO-PREVOUSLY-AUTHENTICATED",
+                                                "TMO-CURRENTLY-AUTHENTICATED"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "utility": [
+        {
+            "showInMobileView": false,
+            "id": "Support",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click to contact our support team",
+            "icon": "mdi-message-text-outline",
+            "linkUrl": [
+                {
+                    "linkText": "Support",
+                    "linkHref": "https://support.t-mobile.com/welcome",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "showInMobileView": false,
+            "id": "search",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "icon": "mdi-magnify",
+            "hoverIcon": "mdi-close",
+            "linkUrl": [
+                {
+                    "linkText": "Search",
+                    "linkHref": "/search?q={querryParam}",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "showInMobileView": true,
+            "id": "account-menu",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click to open login menu",
+            "icon": "mdi-account",
+            "linkUrl": [
+                {
+                    "linkText": "Log in",
+                    "customerType": [
+                        "PROSPECT",
+                        "TMO-PREVOUSLY-AUTHENTICATED",
+                        "TMO-CURRENTLY-AUTHENTICATED",
+                        "PARTNER-PREVOUSLY-AUTHENTICATED",
+                        "PARTNER-CURRENTLY-AUTHENTICATED"
+                    ]
+                }
+            ]
+        },
+        {
+            "showInMobileView": false,
+            "id": "login-menu",
+            "disabled":false,
+            "buttonType": "secondary-black",
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click login button",
+            "icon": "mdi-account",
+            "linkUrl": [
+              {
+                "linkText": "Log in",
+                "customerType": [
+                   "PROSPECT",
+                  "TMO-PREVOUSLY-AUTHENTICATED",
+                  "TMO-CURRENTLY-AUTHENTICATED",
+                  "PARTNER-PREVOUSLY-AUTHENTICATED",
+                  "PARTNER-CURRENTLY-AUTHENTICATED",
+                  "TMO-PREVOUSLY-AUTHENTICATED",
+                  "TMO-CURRENTLY-AUTHENTICATED",
+                  "PARTNER-PREVOUSLY-AUTHENTICATED",
+                  "PARTNER-CURRENTLY-AUTHENTICATED"
+                ]
+              }
+            ]
+          },
+          {
+            "showInMobileView": false,
+            "buttonType":"primary-black",
+            "id": "get-started",
+            "disabled":false,
+            "linkType": "DEFAULT",
+            "targetWindow": "SELF",
+            "label": "Click to open My account links",
+            "icon": "mdi-account",
+            "linkUrl": [
+              {
+                "linkText": "Get Started",
+                "customerType": [
+                   "PROSPECT",
+                  "TMO-PREVOUSLY-AUTHENTICATED",
+                  "TMO-CURRENTLY-AUTHENTICATED",
+                  "PARTNER-PREVOUSLY-AUTHENTICATED",
+                  "PARTNER-CURRENTLY-AUTHENTICATED",
+                  "TMO-PREVOUSLY-AUTHENTICATED",
+                  "TMO-CURRENTLY-AUTHENTICATED",
+                  "PARTNER-PREVOUSLY-AUTHENTICATED",
+                  "PARTNER-CURRENTLY-AUTHENTICATED"
+                ]
+              }
+            ]
+          }
+    ],
+    "userLinks": {
+        "labelText": "My Account",
+        "labelColor": "GREY",
+        "mobileIcon": "mdi-account",
+        "link": [
+            {
+                "linkType": "BUTTON-COLUMN",
+                "linkUrl": [
+                    {
+                        "customerType": [
+                            "PROSPECT",
+                            "TMO-PREVOUSLY-AUTHENTICATED"
+                        ],
+                        "childLinks": [
+                            {
+                                "categorizedlink": [
+                                    {
+                                        "id": "Log In",
+                                        "linkType": "PRIMARY-BUTTON",
+                                        "targetWindow": "SELF",
+                                        "label": "Click to log in",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Log In",
+                                                "linkHref": "https://my.t-mobile.com",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED",
+                                                    "PARTNER-PREVOUSLY-AUTHENTICATED",
+                                                    "PARTNER-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "linkType": "BLADE",
+                "linkUrl": [
+                    {
+                        "customerType": [
+                            "TMO-CURRENTLY-AUTHENTICATED"
+                        ],
+                        "childLinks": [
+                            {
+                                "categorizedlink": [
+                                    {
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Back to my account",
+                                                "linkHref": "https://my.t-mobile.com",
+                                                "customerType": [
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "linkType": "SINGLE-COLUMN",
+                "linkUrl": [
+                    {
+                        "customerType": [
+                            "PROSPECT",
+                            "TMO-PREVOUSLY-AUTHENTICATED",
+                            "TMO-CURRENTLY-AUTHENTICATED",
+                            "PARTNER-PREVOUSLY-AUTHENTICATED",
+                            "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ],
+                        "childLinks": [
+                            {
+                                "categoryName": "Quick actions",
+                                "categorizedlink": [
+                                    {
+                                        "id": "Bill pay Id",
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "label": "Click to pay your bill",
+                                        "icon": "Bill pay Icon",
+                                        "hoverIcon": "Bill pay Hover",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Bill pay",
+                                                "linkHref": "https://my.t-mobile.com/onetimepayment",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Add a line",
+                                                "linkHref": "https://my.t-mobile.com/purchase/device-intent",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "Upgrade",
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "label": "upgrade label",
+                                        "icon": "upgrade icon",
+                                        "hoverIcon": "upgrade hover",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Upgrade",
+                                                "linkHref": "https://my.t-mobile.com/purchase/shop ",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "Check order Status",
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "label": "Click to check the status of an order",
+                                        "icon": "Check order Status Icon",
+                                        "hoverIcon": "Check order Status Hover",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Check Order Status",
+                                                "linkHref": "https://my.t-mobile.com/myphone/checkorder.html",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "Support ID",
+                                        "linkType": "DEFAULT",
+                                        "targetWindow": "SELF",
+                                        "label": "Click to contact our support team",
+                                        "icon": "Support Icon",
+                                        "hoverIcon": "Support Hover",
+                                        "linkUrl": [
+                                            {
+                                                "linkText": "Support",
+                                                "linkHref": "https://support.t-mobile.com/welcome.html",
+                                                "customerType": [
+                                                    "PROSPECT",
+                                                    "TMO-PREVOUSLY-AUTHENTICATED",
+                                                    "TMO-CURRENTLY-AUTHENTICATED"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "search": {
+        "searchURL": "https://content.atomz.com/autocomplete/sp10/05/0e/bc",
+        "quickLinksLabel": "Quick links",
+        "topSearchesLabel": "Top searches",
+        "quickLinks": [
+            {
+                "linkText": "Find a store",
+                "linkHref": "https://www.t-mobile.com/store-locator",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Phones",
+                "linkHref": "https://www.t-mobile.com/cell-phones",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Accessories",
+                "linkHref": "https://www.t-mobile.com/accessories",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Smartwatches",
+                "linkHref": "https://www.t-mobile.com/smart-watches",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Tablets",
+                "linkHref": "https://www.t-mobile.com/tablets",
+                "targetWindow": "SELF"
+            }
+        ],
+        "searchSuggestions": [
+            {
+                "linkText": "iPhone 11",
+                "linkHref": "https://www.t-mobile.com/search?q=iphone%2011",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "iPhone 11 Pro",
+                "linkHref": "https://www.t-mobile.com/search?q=iphone%2011%20pro",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "iPhone 11 Pro Max",
+                "linkHref": "https://www.t-mobile.com/search?q=iphone%2011%20pro%20max",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Samsung Galaxy Note10",
+                "linkHref": "https://www.t-mobile.com/search?q=Samsung%20Galaxy%20Note10",
+                "targetWindow": "SELF"
+            },
+            {
+                "linkText": "Switch to T-Mobile",
+                "linkHref": "https://www.t-mobile.com/search?count=10&do=redesign&i=1&page=1&mlay=Grid&category=support&q=switch&unav=default",
+                "targetWindow": "SELF"
+            }
+        ],
+        "enableNewDropDown": true,
+        "enableDefaultScript": true,
+        "searchHint": "Search",
+        "maxPredictive": 5
+    }
+}

@@ -1,0 +1,460 @@
+{
+  "title": "MENU",
+  "logo": {
+    "id": "Logo Id",
+    "targetWindow": "SELF",
+    "label": "Logo Label",
+    "icon": "tmo-logo.svg",
+    "hoverIcon": "LogoHover",
+    "linkType": "DEFAULT",
+    "linkUrl": [
+      {
+        "customerType": [
+          "PROSPECT"
+        ],
+        "linkText": "T-MOBILE",
+        "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "Consumer ID",
+      "targetWindow": "SELF",
+      "label": "Consumer label",
+      "icon": "Consumer Icon",
+      "hoverIcon": "Consumer Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "CONSUMER",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "Business Id",
+      "targetWindow": "SELF",
+      "label": "Business label",
+      "icon": "Business Icon",
+      "hoverIcon": "Business Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "BUSINESS",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "Prepaid ID",
+      "targetWindow": "SELF",
+      "label": "Prepaid Label",
+      "icon": "Prepaid icon",
+      "hoverIcon": "Prepaid Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "PREPAID",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "TV id",
+      "targetWindow": "SELF",
+      "label": "TV Label",
+      "icon": "TV Icon",
+      "hoverIcon": "TV hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "TV",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "Banking ID",
+      "targetWindow": "SELF",
+      "label": "Banking label",
+      "icon": "Banking icon",
+      "hoverIcon": "Banking hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "BANKING",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "Banking ID",
+      "targetWindow": "SELF",
+      "label": "Banking label",
+      "icon": "Banking icon",
+      "hoverIcon": "Banking hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "BANKING",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    }
+  ],
+  "navigationLinks": [
+    {
+      "id": "Plans ID",
+      "targetWindow": "SELF",
+      "label": "Plans Label",
+      "icon": "Plans Icon",
+      "hoverIcon": "Plans Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "linkText": "Plans",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4",
+          "customerType": [
+            "PROSPECT"
+          ],
+          "childLinks": []
+        }
+      ]
+    },
+    {
+      "id": "Phones ID",
+      "targetWindow": "SELF",
+      "label": "Phones Label",
+      "icon": "Phones Icon",
+      "hoverIcon": "Phones Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "linkText": "Phones",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4",
+          "customerType": [
+            "PROSPECT"
+          ],
+          "childLinks": [
+            {
+              "categoryName": "",
+              "categorizedLink": [
+                {
+                  "id": "Shop all Id",
+                  "targetWindow": "SELF",
+                  "label": "Shop all label",
+                  "description": "",
+                  "icon": "Shop all Icon",
+                  "hoverIcon": "Shop all Hover",
+                  "linkUrl": [
+                    {
+                      "customerType": [
+                        "PROSPECT"
+                      ],
+                      "linkText": "Shop all",
+                      "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                    }
+                  ]
+                },
+                {
+                  "id": "Smartphones ID",
+                  "targetWindow": "SELF",
+                  "label": "Smartphones Label",
+                  "description": "",
+                  "icon": "Smartphones Icon",
+                  "hoverIcon": "Smartphones Hover",
+                  "linkUrl": [
+                    {
+                      "customerType": [
+                        "PROSPECT"
+                      ],
+                      "linkText": "Smartphones",
+                      "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                    }
+                  ]
+                },
+                {
+                  "id": "Tablets & wearables Id",
+                  "targetWindow": "SELF",
+                  "label": "Tablets & wearables Label",
+                  "description": "",
+                  "icon": "Tablets & wearables Icon",
+                  "hoverIcon": "Tablets & wearables Hover",
+                  "linkUrl": [
+                    {
+                      "customerType": [
+                        "PROSPECT"
+                      ],
+                      "linkText": "Tablets & wearables",
+                      "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                    }
+                  ]
+                },
+                {
+                  "id": "Accessories ID",
+                  "targetWindow": "SELF",
+                  "label": "Accessories Label",
+                  "description": "",
+                  "icon": "Accessories Icon",
+                  "hoverIcon": "Accessories Hover",
+                  "linkUrl": [
+                    {
+                      "customerType": [
+                        "PROSPECT"
+                      ],
+                      "linkText": "Accessories",
+                      "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                    }
+                  ]
+                },
+                {
+                  "id": "Bring your own device ID",
+                  "targetWindow": "SELF",
+                  "label": "Bring your own device Label",
+                  "description": "",
+                  "icon": "Bring your own device Icon",
+                  "hoverIcon": "Bring your own device Hover",
+                  "linkUrl": [
+                    {
+                      "customerType": [
+                        "PROSPECT"
+                      ],
+                      "linkText": "Bring your own device",
+                      "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Deals ID",
+      "targetWindow": "SELF",
+      "label": "Deals Label",
+      "icon": "Deals Icon",
+      "hoverIcon": "Deals Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "linkText": "Deals",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4",
+          "customerType": [
+            "PROSPECT"
+          ],
+          "childLinks": []
+        }
+      ]
+    },
+    {
+      "id": "Why T-Mobile ID",
+      "targetWindow": "SELF",
+      "label": "Why T-Mobile Label",
+      "icon": "Why T-Mobile Icon",
+      "hoverIcon": "Why T-Mobile Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "linkText": "Why T-Mobile",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4",
+          "customerType": [
+            "PROSPECT"
+          ],
+          "childLinks": []
+        }
+      ]
+    }
+  ],
+  "utility": [
+    {
+      "id": "Find a store id",
+      "targetWindow": "SELF",
+      "label": "Find a store label",
+      "icon": "mdi-map-marker",
+      "hoverIcon": "Find a store hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "Find a store",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "Talk to Us ID",
+      "targetWindow": "SELF",
+      "label": "Talk to Us Label",
+      "icon": "mdi-message",
+      "hoverIcon": "Talk to Us Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "Talk to us",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "targetWindow": "SELF",
+      "label": "Search label",
+      "icon": "mdi-magnify",
+      "hoverIcon": "Search Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "Search",
+          "linkHref": "https://www.t-mobile.com/TMOsearch/Search.html?q={querryParam}&count=20&do=redesign&i=1&page=1&mlay=Grid&category=device"
+        }
+      ]
+    },
+    {
+      "id": "Get Started ID",
+      "targetWindow": "SELF",
+      "label": "Get Started Label",
+      "icon": "mdi-cart",
+      "hoverIcon": "Get Started Hover",
+      "linkType": "DEFAULT",
+      "linkUrl": [
+        {
+          "customerType": [
+            "PROSPECT"
+          ],
+          "linkText": "Get started",
+          "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+        }
+      ]
+    }
+  ],
+  "userLinks": {
+    "labelColor": "GREY",
+    "labelTitle": "My account",
+    "link": [
+      {
+        "id": "Log In ID",
+        "targetWindow": "SELF",
+        "label": "Log In label",
+        "icon": "mdi-account",
+        "hoverIcon": "Log In Hover",
+        "linkType": "PRIMARY-BUTTON",
+        "linkUrl": [
+          {
+            "linkText": "My Account",
+            "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4",
+            "customerType": [
+              "PROSPECT"
+            ],
+            "childLinks": [
+              
+            ]
+          }
+        ]
+      },
+      {
+        "id": "",
+        "targetWindow": "SELF",
+        "label": "",
+        "icon": "",
+        "hoverIcon": "",
+        "linkType": "SINGLE-COLUMN",
+        "linkUrl": [
+          {
+            "linkText": "yees",
+            "linkHref": "2 you",
+            "customerType": [
+              "PROSPECT"
+            ],
+            "childLinks": [
+              {
+                "categoryName": "Quick actions",
+                "categorizedlink": [
+                  {
+                    "id": "Bill pay Id",
+                    "targetWindow": "SELF",
+                    "label": "Bill pay label",
+                    "description": "",
+                    "icon": "Bill pay Icon",
+                    "hoverIcon": "Bill pay Hover",
+                    "linkUrl": [
+                      {
+                        "customerType": [
+                          "PROSPECT"
+                        ],
+                        "linkText": "Bill pay",
+                        "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Check order Status",
+                    "targetWindow": "SELF",
+                    "label": "Check order Status Label",
+                    "description": "",
+                    "icon": "Check order Status Icon",
+                    "hoverIcon": "Check order Status Hover",
+                    "linkUrl": [
+                      {
+                        "customerType": [
+                          "PROSPECT"
+                        ],
+                        "linkText": "Check order status",
+                        "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Support ID",
+                    "targetWindow": "SELF",
+                    "label": "Support label",
+                    "description": "",
+                    "icon": "Support Icon",
+                    "hoverIcon": "Support Hover",
+                    "linkUrl": [
+                      {
+                        "customerType": [
+                          "PROSPECT"
+                        ],
+                        "linkText": "Support",
+                        "linkHref": "https://www.t-mobile.com/?type=primary-dropdown-4"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

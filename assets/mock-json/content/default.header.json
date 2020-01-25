@@ -1,0 +1,1365 @@
+{
+    "title": "MENU",
+    "sitesTitle": "more from T-Mobile",
+    "logo": {
+      "id": "Logo Id",
+      "linkType": "DEFAULT",
+      "targetWindow": "SELF",
+      "label": "Logo Label",
+      "icon": "//cdn.tmobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v3.svg ",
+      "hoverIcon": "LogoHover",
+      "linkUrl": [
+        {
+          "linkText": "T-MOBILE",
+          "linkHref": "https://www.t-mobile.com",
+          "customerType": [
+            "PROSPECT",
+            "TMO-PREVOUSLY-AUTHENTICATED",
+            "TMO-CURRENTLY-AUTHENTICATED",
+            "PARTNER-PREVOUSLY-AUTHENTICATED",
+            "PARTNER-CURRENTLY-AUTHENTICATED"
+          ]
+        }
+      ]
+    },
+    "sites": [
+      {
+        "activeState": true,
+        "id": "Consumer ID",
+        "linkType": "DEFAULT",
+        "targetWindow": "NEW",
+        "label": "Click to visit the wireless site",
+        "icon": "Consumer Icon",
+        "hoverIcon": "Consumer Hover",
+        "linkUrl": [
+          {
+            "linkText": "Wireless",
+            "linkHref": "https://www.t-mobile.com/",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "activeState": false,
+        "id": "Business Id",
+        "linkType": "DEFAULT",
+        "targetWindow": "NEW",
+        "label": "Click to visit the business site",
+        "icon": "Business Icon",
+        "hoverIcon": "Business Hover",
+        "linkUrl": [
+          {
+            "linkText": "Business",
+            "linkHref": "https://www.t-mobile.com/business",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "activeState": false,
+        "id": "Prepaid ID",
+        "linkType": "DEFAULT",
+        "targetWindow": "NEW",
+        "label": "Click to visit the prepaid site",
+        "icon": "Prepaid icon",
+        "hoverIcon": "Prepaid Hover",
+        "linkUrl": [
+          {
+            "linkText": "Prepaid",
+            "linkHref": "https://prepaid.t-mobile.com/home",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "activeState": false,
+        "id": "TV id",
+        "linkType": "DEFAULT",
+        "targetWindow": "NEW",
+        "label": "Click to visit T-Vision",
+        "icon": "TV Icon",
+        "hoverIcon": "TV hover",
+        "linkUrl": [
+          {
+            "linkText": "TV",
+            "linkHref": "https://www.t-mobile.com/tv",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "activeState": false,
+        "id": "Banking ID",
+        "linkType": "DEFAULT",
+        "targetWindow": "NEW",
+        "label": "Click to visit T-Mobile Money",
+        "icon": "Banking icon",
+        "hoverIcon": "Banking hover",
+        "linkUrl": [
+          {
+            "linkText": "Banking",
+            "linkHref": "https://www.t-mobilemoney.com",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      }
+    ],
+    "navigationLinks": [
+      {
+        "id": "Plans ID",
+        "linkType": "MULTIPLE-COLUMN",
+        "targetWindow": "SELF",
+        "label": "Click for plans",
+        "icon": "Plans Icon",
+        "hoverIcon": "Plans Hover",
+        "linkUrl": [
+          {
+            "linkText": "Plans",
+            "linkHref": "https://www.t-mobile.com/cell-phone-plans",
+            "customerType": [
+              "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ],
+            "childLinks": [
+              {
+                "categoryName": "Phones",
+                "categorizedlink": [
+                  {
+                    "id": "Magenta id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Magenta",
+                    "icon": "Magenta icon",
+                    "hoverIcon": "Magenta hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "MagentaÂ®",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/magenta",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Magenta Plus id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Magenta Plus",
+                    "icon": "Magenta Plus icon",
+                    "hoverIcon": "Magenta Plus hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "MagentaÂ® Plus",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/magenta-plus",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Essentials id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Essentials",
+                    "icon": "Essentials icon",
+                    "hoverIcon": "Essentials hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Essentials",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/essentials",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Unlimited 55 id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Unlimited 55",
+                    "icon": "Unlimited 55 icon",
+                    "hoverIcon": "Unlimited 55 hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Unlimited 55",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/unlimited-55-senior-discount-plans",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Military id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Military",
+                    "icon": "Military icon",
+                    "hoverIcon": "Military hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Military",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/military-discount-plans",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "categoryName": "Devices",
+                "categorizedlink": [
+                  {
+                    "id": "Magenta id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Magenta",
+                    "icon": "Magenta icon",
+                    "hoverIcon": "Magenta hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "MagentaÂ® ! Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/magenta",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Magenta Plus id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Magenta Plus",
+                    "icon": "Magenta Plus icon",
+                    "hoverIcon": "Magenta Plus hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "MagentaÂ® Plus ! Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/magenta-plus",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Essentials id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Essentials",
+                    "icon": "Essentials icon",
+                    "hoverIcon": "Essentials hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Essentials ! Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/essentials",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Unlimited 55 id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Unlimited 55",
+                    "icon": "Unlimited 55 icon",
+                    "hoverIcon": "Unlimited 55 hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Unlimited 55 Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/unlimited-55-senior-discount-plans",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Military id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Military",
+                    "icon": "Military icon",
+                    "hoverIcon": "Military hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Military Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/military-discount-plans",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Phones ID",
+        "linkType": "MULTIPLE-COLUMN",
+        "targetWindow": "SELF",
+        "label": "Click for phones",
+        "icon": "Phones Icon",
+        "hoverIcon": "Phones Hover",
+        "linkUrl": [
+          {
+            "linkText": "Phones",
+            "linkHref": "https://www.t-mobile.com/cell-phones",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ],
+            "childLinks": [
+              {
+                "categoryName": "Phones 2",
+                "categorizedlink": [
+                  {
+                    "id": "Cell_Phones ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop phones",
+                    "icon": "Shop all Icon",
+                    "hoverIcon": "Shop all Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Cell phones",
+                        "linkHref": "https://www.t-mobile.com/cell-phones",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Smartphones ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop tablets",
+                    "icon": "Smartphones Icon",
+                    "hoverIcon": "Smartphones Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Tablets",
+                        "linkHref": "https://www.t-mobile.com/tablets",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Tablets & wearables Id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop smart watches",
+                    "icon": "Tablets & wearables Icon",
+                    "hoverIcon": "Tablets & wearables Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Smartwatches",
+                        "linkHref": "https://www.t-mobile.com/smart-watches",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Accessories ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop accessories",
+                    "icon": "Accessories Icon",
+                    "hoverIcon": "Accessories Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Accessories",
+                        "linkHref": "https://www.t-mobile.com/accessories",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Bring your own device ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to learn how to bring your own device",
+                    "icon": "Bring your own device Icon",
+                    "hoverIcon": "Bring your own device Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Bring your own device",
+                        "linkHref": "https://www.t-mobile.com/resources/bring-your-own-phone",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "categoryName": "Phone Devices",
+                "categorizedlink": [
+                  {
+                    "id": "Cell_Phones ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Cell phones Test Label",
+                    "icon": "Shop all Icon",
+                    "hoverIcon": "Shop all Hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Cell phones Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phones",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Deals ID",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click for deals",
+        "icon": "Deals Icon",
+        "hoverIcon": "Deals Hover",
+        "linkUrl": [
+          {
+            "linkText": "Deals",
+            "linkHref": "https://www.t-mobile.com/offers/deals-hub",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ],
+            "childLinks": [
+              {
+                "categorizedlink": [
+                  {
+                    "id": "Apple ID",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Apple ",
+                    "icon": "Apple icon",
+                    "hoverIcon": "Apple hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Apple",
+                        "linkHref": "https://www.t-mobile.com/offers/apple-iphone-deals",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Samsung id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Samsung",
+                    "icon": "Samsung icon",
+                    "hoverIcon": "Samsung hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Samsung",
+                        "linkHref": "https://www.t-mobile.com/offers/samsung-phone-deals",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Google id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Google",
+                    "icon": "Google icon",
+                    "hoverIcon": "Google hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Google",
+                        "linkHref": "https://www.t-mobile.com/offers/google-phone-deals",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "LG id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop LG",
+                    "icon": "LG icon",
+                    "hoverIcon": "LG hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "LG",
+                        "linkHref": "https://www.t-mobile.com/offers/lg-phone-deals",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage id",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to learn more about T-Mobile Coverage",
+        "icon": "Coverage icon",
+        "hoverIcon": "Coverage hover",
+        "linkUrl": [
+          {
+            "linkText": "Coverage",
+            "linkHref": "https://www.t-mobile.com/coverage/4g-lte-5g-networks",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Benefits and more ID",
+        "linkType": "MULTIPLE-COLUMN",
+        "targetWindow": "SELF",
+        "label": "Benefits and more label",
+        "icon": "Benefits and more icon",
+        "hoverIcon": "Benefits and more hover",
+        "linkUrl": [
+          {
+            "linkText": "Benefits & more",
+            "linkHref": "https://www.t-mobile.com/brand/benefits",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ],
+            "childLinks": [
+              {
+                "categoryName": "Why",
+                "categorizedlink": [
+                  {
+                    "id": "Why T-Mobile  id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Why T-Mobile label",
+                    "icon": "Why T-Mobile icon",
+                    "hoverIcon": "Why T-Mobile hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Benefits",
+                        "linkHref": "https://www.t-mobile.com/brand/benefits",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Why T-Mobile id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Why T-Mobile label",
+                    "icon": "Why T-Mobile icon",
+                    "hoverIcon": "Why T-Mobile hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Why T-Mobile",
+                        "linkHref": "https://www.t-mobile.com/brand/why-t-mobile",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "5G Vision id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "5G Vision label",
+                    "icon": "5G Vision icon",
+                    "hoverIcon": "5G Vision hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "5G vision",
+                        "linkHref": "https://www.t-mobile.com/5g",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "categoryName": "Why 1",
+                "categorizedlink": [
+                  {
+                    "id": "Why T-Mobile  id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Why T-Mobile  Test Label",
+                    "linkUrl": [
+                      {
+                        "linkText": "Why T-Mobile  Test",
+                        "linkHref": "https://www.t-mobile.com/brand/benefits",
+                        "customerType": [
+                           "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "utility": [
+      {
+        "showInMobileView": false,
+        "id": "Find a store id",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to find a store",
+        "icon": "mdi-store",
+        "hoverIcon": "Find a store hover",
+        "linkUrl": [
+          {
+            "linkText": "Find a store",
+            "linkHref": "https://www.t-mobile.com/store-locator",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "id": "call-us",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to call",
+        "icon": "mdi-cellphone",
+        "hoverIcon": "mdi-message",
+        "linkUrl": [
+          {
+            "linkText": "Let's talk",
+            "linkHref": "tel:1-800-866-2453",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ],
+            "childLinks": [
+              {
+                "categorizedlink": [
+                  {
+                    "id": "lpUnavLink",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Test",
+                    "icon": "Test icon",
+                    "hoverIcon": "Test hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Test®",
+                        "linkHref": "javascript:void(0)",
+                        "customerType": [
+                          "PROSPECT",
+                          "TMO-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Test Plus id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Test Plus",
+                    "icon": "Test Plus icon",
+                    "hoverIcon": "Test Plus hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "MagentaÂ® Plus",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/magenta-plus",
+                        "customerType": [
+                          "PROSPECT",
+                          "TMO-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "TestEssentials id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop TestEssentials",
+                    "icon": "TestEssentials icon",
+                    "hoverIcon": "TestEssentials hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "TestEssentials",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/essentials",
+                        "customerType": [
+                          "PROSPECT",
+                          "TMO-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Unlimited Test id",
+                    "linkType": "DEFAULT",
+                    "targetWindow": "SELF",
+                    "label": "Click to shop Unlimited Test",
+                    "icon": "Unlimited Test icon",
+                    "hoverIcon": "Unlimited Test hover",
+                    "linkUrl": [
+                      {
+                        "linkText": "Unlimited Test",
+                        "linkHref": "https://www.t-mobile.com/cell-phone-plans/unlimited-55-senior-discount-plans",
+                        "customerType": [
+                          "PROSPECT",
+                          "TMO-CURRENTLY-AUTHENTICATED"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "id": "lpDigitalUnavButton",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Get Started Label",
+        "icon": "mdi-cart",
+        "hoverIcon": "Cart Hover",
+        "linkUrl": [
+          {
+            "linkText": "",
+            "linkHref": "",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "id": "cart",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Get Started Label",
+        "icon": "mdi-cart",
+        "hoverIcon": "Cart Hover",
+        "linkUrl": [
+          {
+            "linkText": "Cart",
+            "linkHref": "https://www.t-mobile.com/cart",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "id": "search",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Search label",
+        "icon": "mdi-magnify",
+        "hoverIcon": "mdi-close",
+        "linkUrl": [
+          {
+            "linkText": "Search",
+            "linkHref": "/search?q={querryParam}",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": true,
+        "id": "account-menu",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to open login menu",
+        "icon": "mdi-account",
+        "linkUrl": [
+          {
+            "linkText": "Log in",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "id": "login-menu",
+        "disabled":false,
+        "buttonType": "secondary-magenta",
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click login button",
+        "icon": "mdi-account",
+        "linkUrl": [
+          {
+            "linkText": "Log in",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      },
+      {
+        "showInMobileView": false,
+        "buttonType":"primary-magenta",
+        "id": "get-started",
+        "disabled":false,
+        "linkType": "DEFAULT",
+        "targetWindow": "SELF",
+        "label": "Click to open My account links",
+        "icon": "mdi-account",
+        "linkUrl": [
+          {
+            "linkText": "Get Started",
+            "customerType": [
+               "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+            ]
+          }
+        ]
+      }
+    ],
+    "userLinks": {
+      "labelText": "My account",
+      "labelColor": "MAGENTA",
+      "mobileIcon": "mdi-account",
+      "link": [
+        {
+          "linkType": "BLADE",
+          "linkUrl": [
+            {
+              "customerType": [
+              "TMO-CURRENTLY-AUTHENTICATED"
+
+              ],
+              "childLinks": [
+                {
+                  "categoryName": "Quick Actions",
+                  "categorizedlink": [
+                    {
+                      "id": "Bill pay Id",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to pay your bill",
+                      "icon": "Bill pay Icon",
+                      "hoverIcon": "Bill pay Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Account Home",
+                          "linkHref": "https://my.t-mobile.com",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkType": "BUTTON-COLUMN",
+          "linkUrl": [
+            {
+              "customerType": [
+                "PROSPECT"
+              ],
+              "childLinks": [
+                {
+                  "categorizedlink": [
+                    {
+                      "id": "loginId",
+                      "linkType": "PRIMARY-BUTTON",
+                      "targetWindow": "SELF",
+                      "label": "Log In label",
+                      "linkUrl": [
+                        {
+                          "linkText": "Log in",
+                          "linkHref": "https://my.t-mobile.com/login.html",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkType": "SINGLE-COLUMN",
+          "linkUrl": [
+            {
+              "customerType": [
+                 "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+              ],
+              "childLinks": [
+                {
+                  "categoryName": "Quick Actions",
+                  "categorizedlink": [
+                    {
+                      "id": "Bill pay Id",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to pay your bill",
+                      "icon": "Bill pay Icon",
+                      "hoverIcon": "Bill pay Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Bill pay",
+                          "linkHref": "https://my.t-mobile.com/onetimepayment",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Add a device",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "linkUrl": [
+                        {
+                          "linkText": "Add a device",
+                          "linkHref": "https://my.t-mobile.com/home",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Upgrade",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "linkUrl": [
+                        {
+                          "linkText": "Upgrade",
+                          "linkHref": "https://my.t-mobile.com/purchase/shop ",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Check order Status",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to check the status of an order",
+                      "icon": "Check order Status Icon",
+                      "hoverIcon": "Check order Status Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Check order status",
+                          "linkHref": "https://my.t-mobile.com/myphone/checkorder.html",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Support ID",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to contact our support team",
+                      "icon": "Support Icon",
+                      "hoverIcon": "Support Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Support",
+                          "linkHref": "https://support.t-mobile.com/welcome.html",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    }
+                    ,
+                    {
+                      "id": "switch-account",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to contact our support team",
+                      "icon": "Support Icon",
+                      "hoverIcon": "Support Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Switch Account",
+                          "linkHref": "https://my.t-mobile.com",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "logout",
+                      "linkType": "DEFAULT",
+                      "targetWindow": "SELF",
+                      "label": "Click to contact our support team",
+                      "icon": "Support Icon",
+                      "hoverIcon": "Support Hover",
+                      "linkUrl": [
+                        {
+                          "linkText": "Logout",
+                          "linkHref": "https://my.t-mobile.com",
+                          "customerType": [
+                             "PROSPECT",
+              "TMO-PREVOUSLY-AUTHENTICATED",
+              "TMO-CURRENTLY-AUTHENTICATED",
+              "PARTNER-PREVOUSLY-AUTHENTICATED",
+              "PARTNER-CURRENTLY-AUTHENTICATED"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    "search": {
+      "placeholderText": "Search",
+      "searchURL": "https://content.atomz.com/autocomplete/sp10/05/0e/bc",
+      "quickLinksLabel": "Quick links",
+      "displayQuickLinks": true,
+      "displayTopSearches": true,
+      "topSearchesLabel": "Top searches",
+      "quickLinks": [
+        {
+          "linkText": "Find a store",
+          "linkHref": "https://www.t-mobile.com/store-locator",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "Phones",
+          "linkHref": "https://www.t-mobile.com/cell-phones",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "Accessories",
+          "linkHref": "https://www.t-mobile.com/accessories",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "Smartwatches",
+          "linkHref": "https://www.t-mobile.com/smart-watches",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "Tablets",
+          "linkHref": "https://www.t-mobile.com/tablets",
+          "targetWindow": "SELF"
+        }
+      ],
+      "searchSuggestions": [
+        {
+          "linkText": "Airpods",
+          "linkHref": "/search?q=airpods",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "iPhone",
+          "linkHref": "/search?q=iphone",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "Apple Watch",
+          "linkHref": "/search?q=apple%20watch",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "iPhone XR",
+          "linkHref": "/search?q=iphone%20xr",
+          "targetWindow": "SELF"
+        },
+        {
+          "linkText": "iPhone X",
+          "linkHref": "/search?q=iphone%20x",
+          "targetWindow": "SELF"
+        }
+      ],
+      "enableNewDropDown": true,
+      "enableDefaultScript": true,
+      "searchHint": "Search",
+      "maxPredictive": 5
+    }
+  }
