@@ -1051,9 +1051,9 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }*/
         if (e.type === 'touchend' && !this.mobileView) {
             if (!this.menuOpened) {
-                e.preventDefault();
-                this.menuOpened = true;
                 setTimeout(function () {
+                    e.preventDefault();
+                    _this.menuOpened = true;
                     _this.changeRef.detectChanges();
                     return;
                 }, 10);
