@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FlexClient</title>
+    <base href="/TMNG/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="assets/scripts/mp_linkcode.js"></script>
+    <script type="text/javascript" src="assets/scripts/search.js"></script>
+    <!-- <script src="https://tags.tiqcdn.com/utag/tmobile/tmobile/prod/utag.js" type="text/javascript" async=""></script> -->
+    <script src="https://tags.tiqcdn.com/utag/tmobile/uno/prod/utag.js" type="text/javascript" async=""></script>
+    
+    <!-- BEGIN LivePerson Monitor. -->
+    <script type="text/javascript">window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'31060422'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{domain: 'lptag.liveperson.net', tagjs: 'tags.liveperson.net'},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;window.lpTag.section = ['unavtest']</script>
+    <!-- END LivePerson Monitor. -->
+    <script>
+      MP.UrlLang = 'mp_js_current_lang';
+
+      MP.SrcUrl = decodeURIComponent('mp_js_orgin_url');
+
+      MP.oSite = decodeURIComponent('mp_js_origin_baseUrl');
+
+      MP.tSite = decodeURIComponent('mp_js_translated_baseUrl');
+
+      MP.init();
+
+      var mp_langLink = function() {
+        var langlinks = document.querySelectorAll('.langLink');
+
+        for (var i = 0; i < langlinks.length; i++) {
+          langlinks.item(i).onclick = function() {
+            MP.init();
+            var lang = this.getAttribute('data-lang');
+            var url = this.getAttribute('data-href');
+            var tSite = MP.tSite.replace(/(https?:\/\/|\/?$)/g, '');
+            url = url.replace(/(https?:\/\/|\/?$)/g, '');
+            MP.switchLanguage(
+              tSite.search(url) != -1 ? MP.oSite : url,
+              lang,
+              true
+            );
+            return false;
+          };
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener('load', mp_langLink, false);
+      } else if (window.attachEvent) {
+        window.attachEvent('onload', mp_langLink);
+      }
+    </script>
+  </head>
+  <body>
+    <tmo-root></tmo-root>
+  <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="es2015-polyfills.js" nomodule></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+</html>
