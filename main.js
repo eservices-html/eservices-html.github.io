@@ -1037,7 +1037,11 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         var parentSrcId = parentEle ? parentEle['id'] : '';
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
         if (!this.mobileView && isnavLink && items > 0) {
-            if (!this.menuOpened) {
+            if (!this.elementRef.nativeElement.contains(e.target) && !this.mobileView && this.menuOpened) {
+                this.menuOpened = false;
+                this.changeRef.detectChanges();
+            }
+            else if (!this.menuOpened) {
                 e.preventDefault();
                 this.menuOpened = true;
                 this.closeMenu.emit();
@@ -1494,7 +1498,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
