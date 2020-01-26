@@ -1041,11 +1041,10 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 this.menuOpened = false;
                 this.changeRef.detectChanges();
             }
-            else if (!this.menuOpened) {
+            if (!this.menuOpened) {
                 e.preventDefault();
                 this.menuOpened = true;
                 this.closeMenu.emit();
-                this.changeRef.detectChanges();
             }
             /*setTimeout(() => {
             const IS_OPENED = !this.menuOpened;
