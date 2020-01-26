@@ -1006,10 +1006,10 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     }
     NtmUnavDropdownComponent_1 = NtmUnavDropdownComponent;
     NtmUnavDropdownComponent.prototype.onWindowClick = function (event) {
-        if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
-            this.menuOpened = false;
-            this.changeRef.detectChanges();
-        }
+        /*if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
+         this.menuOpened = false;
+         this.changeRef.detectChanges();
+        }*/
     };
     NtmUnavDropdownComponent.prototype.ngOnChanges = function () {
         this.menuOpened = this.menuItemData && !this.menuItemData.close;
@@ -1032,6 +1032,7 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }*/
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
+        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
@@ -1042,11 +1043,11 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 this.menuOpened = true;
                 this.closeMenu.emit();
             }
-            /*setTimeout(() => {
-            const IS_OPENED = !this.menuOpened;
-                this.menuOpened = IS_OPENED;
-                this.changeRef.detectChanges();
-              },0);*/
+            setTimeout(function () {
+                var IS_OPENED = !_this.menuOpened;
+                _this.menuOpened = IS_OPENED;
+                _this.changeRef.detectChanges();
+            }, 0);
         }
     };
     var NtmUnavDropdownComponent_1;
@@ -1493,7 +1494,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
