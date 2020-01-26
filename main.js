@@ -1032,22 +1032,26 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         }*/
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
-        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
         if (!this.mobileView && isnavLink && items > 0) {
-            if (!this.menuOpened) {
+            if (!this.elementRef.nativeElement.contains(e.target) && !this.mobileView && this.menuOpened) {
+                this.menuOpened = false;
+                this.changeRef.detectChanges();
+            }
+            else if (!this.menuOpened) {
                 e.preventDefault();
                 this.menuOpened = true;
                 this.closeMenu.emit();
+                this.changeRef.detectChanges();
             }
-            setTimeout(function () {
-                var IS_OPENED = !_this.menuOpened;
-                _this.menuOpened = IS_OPENED;
-                _this.changeRef.detectChanges();
-            }, 0);
+            /*setTimeout(() => {
+            const IS_OPENED = !this.menuOpened;
+                this.menuOpened = IS_OPENED;
+                this.changeRef.detectChanges();
+              },0);*/
         }
     };
     var NtmUnavDropdownComponent_1;
@@ -1494,7 +1498,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
+/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
