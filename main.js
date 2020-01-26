@@ -1008,7 +1008,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     NtmUnavDropdownComponent_1 = NtmUnavDropdownComponent;
     NtmUnavDropdownComponent.prototype.onWindowClick = function (event) {
         if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
-            alert("close event");
             this.menuOpened = false;
             this.changeRef.detectChanges();
         }
@@ -1039,8 +1038,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         var parentSrcId = parentEle ? parentEle['id'] : '';
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
         if (!this.mobileView && isnavLink && items > 0) {
-            //alert("this.menuOpened before: "+this.menuOpened);
-            alert("touch");
             if (!this.elementRef.nativeElement.contains(e.target) && !this.mobileView && this.menuOpened) {
                 this.menuOpened = false;
                 this.changeRef.detectChanges();
@@ -1051,12 +1048,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
                 this.menuOpened = true;
                 this.changeRef.detectChanges();
             }
-            //alert("this.menuOpened after: "+this.menuOpened);
-            /*setTimeout(() => {
-            const IS_OPENED = !this.menuOpened;
-                this.menuOpened = IS_OPENED;
-                this.changeRef.detectChanges();
-              },0);*/
         }
     };
     var NtmUnavDropdownComponent_1;
@@ -1503,7 +1494,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
