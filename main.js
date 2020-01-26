@@ -1003,8 +1003,6 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         _this.clicks = 0;
         _this.closeMenu = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         _this.menuOpened = false;
-        _this.menuOpened = _this.menuItemData && !_this.menuItemData.close;
-        _this.changeRef.detectChanges();
         return _this;
     }
     NtmUnavDropdownComponent_1 = NtmUnavDropdownComponent;
@@ -1047,8 +1045,8 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
             }
             else if (!this.menuOpened) {
                 e.preventDefault();
-                this.menuOpened = true;
                 this.closeMenu.emit();
+                this.menuOpened = true;
                 this.changeRef.detectChanges();
             }
             alert("this.menuOpened after: " + this.menuOpened);
@@ -1503,7 +1501,7 @@ var IconLink;
 /*!***********************************************************************************************************!*\
   !*** D:/TMO_PROJECTS/TMNG/tmo-aem-ui-integration/tmo-ng/libs/shared/digital-unav/src/lib/models/index.ts ***!
   \***********************************************************************************************************/
-/*! exports provided: LinkUrl, Header, HeaderUserLinks, IconLink, Link, UnavComponent */
+/*! exports provided: Header, HeaderUserLinks, IconLink, Link, LinkUrl, UnavComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
