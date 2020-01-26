@@ -1007,10 +1007,11 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     }
     NtmUnavDropdownComponent_1 = NtmUnavDropdownComponent;
     NtmUnavDropdownComponent.prototype.onWindowClick = function (event) {
-        /*if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
-         this.menuOpened = false;
-         this.changeRef.detectChanges();
-        }*/
+        if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
+            alert("close event");
+            this.menuOpened = false;
+            this.changeRef.detectChanges();
+        }
     };
     NtmUnavDropdownComponent.prototype.ngOnChanges = function () {
         this.menuOpened = this.menuItemData && !this.menuItemData.close;
@@ -1039,7 +1040,7 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
         if (!this.mobileView && isnavLink && items > 0) {
             //alert("this.menuOpened before: "+this.menuOpened);
-            console.log("yes");
+            alert("touch");
             if (!this.elementRef.nativeElement.contains(e.target) && !this.mobileView && this.menuOpened) {
                 this.menuOpened = false;
                 this.changeRef.detectChanges();
