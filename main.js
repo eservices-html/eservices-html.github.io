@@ -1006,48 +1006,66 @@ var NtmUnavDropdownComponent = /** @class */ (function (_super) {
     }
     NtmUnavDropdownComponent_1 = NtmUnavDropdownComponent;
     NtmUnavDropdownComponent.prototype.onWindowClick = function (event) {
-        /*if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
-         this.menuOpened = false;
-         this.changeRef.detectChanges();
-        }*/
+        if (!this.elementRef.nativeElement.contains(event.target) && !this.mobileView) {
+            this.menuOpened = false;
+            this.changeRef.detectChanges();
+        }
     };
     NtmUnavDropdownComponent.prototype.ngOnChanges = function () {
         this.menuOpened = this.menuItemData && !this.menuItemData.close;
     };
     NtmUnavDropdownComponent.prototype.toggleMobileDropdown = function () {
-        /*const toggleState = !this.menuOpened
+        var toggleState = !this.menuOpened;
         this.menuOpened = toggleState;
-        this.changeRef.detectChanges()*/
+        this.changeRef.detectChanges();
     };
     NtmUnavDropdownComponent.prototype.toggleDropdown = function (e) {
-        /*if (e.type === 'mouseenter' && !this.mobileView) {
-          this.menuOpened = true;
-          this.changeRef.detectChanges();
-          return;
+        if (e.type === 'mouseenter' && !this.mobileView) {
+            this.menuOpened = true;
+            this.changeRef.detectChanges();
+            return;
         }
         if (e.type === 'mouseleave' && !this.mobileView) {
-          this.menuOpened = false;
-          this.changeRef.detectChanges();
-          return;
-        }*/
+            this.menuOpened = false;
+            this.changeRef.detectChanges();
+            return;
+        }
     };
     NtmUnavDropdownComponent.prototype.touchToggleDropdown = function (e, items) {
+        var _this = this;
         var srcId = e.target ? e.target.id : '';
         var parentEle = e.target ? e.target['parentElement'] : '';
         var parentSrcId = parentEle ? parentEle['id'] : '';
         var isnavLink = srcId.startsWith('digital-header-nav-link-head') || parentSrcId.startsWith('digital-header-nav-link-head');
-        if (!this.mobileView && isnavLink && items > 0) {
-            if (!this.menuOpened) {
-                e.preventDefault();
-                this.menuOpened = true;
-                this.closeMenu.emit();
+        /*if (!this.mobileView && isnavLink && items > 0) {
+         
+          if(!this.menuOpened){
+            e.preventDefault();
+            this.closeMenu.emit();
+          }
+          setTimeout(() => {
+          const IS_OPENED = !this.menuOpened;
+              this.menuOpened = IS_OPENED;
+              this.changeRef.detectChanges();
+            },0);
+        }*/
+        if (e.type === 'touchend' && !this.mobileView && !this.menuOpened && isnavLink && items > 0) {
+            alert("1");
+            e.preventDefault();
+            this.closeMenu.emit();
+            setTimeout(function () {
+                _this.menuOpened = true;
+                _this.changeRef.detectChanges();
+                return;
+            }, 10);
+        }
+        if (e.type === 'touchend' && !this.mobileView && this.menuOpened && isnavLink && items > 0) {
+            alert("2");
+            if (!this.elementRef.nativeElement.contains(e.target)) {
+                this.menuOpened = false;
                 this.changeRef.detectChanges();
             }
-            /*setTimeout(() => {
-            const IS_OPENED = !this.menuOpened;
-                this.menuOpened = IS_OPENED;
-                this.changeRef.detectChanges();
-              },0);*/
+            return;
         }
     };
     var NtmUnavDropdownComponent_1;
