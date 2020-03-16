@@ -1133,7 +1133,7 @@
       "id": "account-menu",
       "linkType": "DEFAULT",
       "targetWindow": "SELF",
-      "label": "Click to call",
+      "label": "Click to chat",
       "icon": "mdi-message-processing",
       "linkUrl": [
         {
