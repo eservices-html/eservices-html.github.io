@@ -82,9 +82,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/forms
-MIT
-
 @angular/material
 MIT
 The MIT License
@@ -113,12 +110,6 @@ THE SOFTWARE.
 @angular/material/button
 
 @angular/material/dialog
-
-@angular/material/divider
-
-@angular/material/icon
-
-@angular/material/slide-toggle
 
 @angular/platform-browser
 MIT
